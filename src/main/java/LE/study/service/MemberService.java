@@ -3,10 +3,12 @@ package LE.study.service;
 import LE.study.domain.Member;
 import LE.study.repository.MemberRepository;
 import LE.study.repository.MemoryMemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {        //cmd + Shift + T = 새 테스트 추출
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
 //    //원본
